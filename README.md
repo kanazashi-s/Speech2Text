@@ -3,8 +3,9 @@ Speech2Text
 
 音声ファイルを指定すると、そのスクリプトを返す関数です。
 ほぼ[Google-Cloud-Speech-APIのソース](https://github.com/GoogleCloudPlatform/python-docs-samples/tree/master/speech/cloud-client)を使用しています。
-![google-speech-api](https://cloud.google.com/images/products/speech/speech-api-lead.png)
-
+<div style="text-align: center;">
+![google-speech-api](https://cloud.google.com/images/products/speech/speech-api-lead.png)/d
+</div>
 ## Description
 
 ## Demo
