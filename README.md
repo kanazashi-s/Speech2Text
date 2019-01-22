@@ -13,7 +13,7 @@ Speech2Text
 ## Demo
 
 ## Requirement
--Python3.6.6  
+- Python3.6.6  
 
 ## Usage
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"]="あなたの認証用jsonファイル"  
