@@ -1,4 +1,4 @@
-Name Speech2Text
+Speech2Text
 ====
 
 音声ファイルを指定すると、そのスクリプトを返す関数です。
@@ -22,8 +22,5 @@ os.environ["GOOGLE_APPLICATION_CREDENTIALS"]="あなたの認証用jsonファイ
 
 ## Licence
 
-[MIT](https://github.com/tcnksm/tool/blob/master/LICENCE)
-
 ## Author
 
-[tcnksm](https://github.com/tcnksm)
