@@ -18,10 +18,11 @@ Speech2Text
 ## Usage
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"]="あなたの認証用jsonファイル"  
 の部分さえ直してくれれば、あとは引数の部分に任意の音声ファイルを指定して、実行することができます。  
-必要なライブラリは、'requirements.txt'に記述してあります。  
-'pip install -r requirements.txt'  
+ 
 
 ## Install
+必要なライブラリは、'requirements.txt'に記述してあります。  
+`pip install -r requirements.txt` 
 
 ## Contribution
 
