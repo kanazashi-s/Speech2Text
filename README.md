@@ -16,6 +16,7 @@ Speech2Text
 
 ## Requirement
 - Python3.6.6  
+- Jupyterで実行する場合、Anaconda3
 
 ## Usage
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"]="あなたの認証用jsonファイル"  
