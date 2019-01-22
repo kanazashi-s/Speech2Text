@@ -11,6 +11,7 @@ Speech2Text
 [Cloud Speech-to-Text ドキュメント](https://cloud.google.com/speech-to-text/docs/?hl=ja)
 
 ## Demo
+かなり見にくくなっておりますが、普通に実行しているだけです。  
 ![result](https://github.com/zacceydesuyo/Speech2Text/blob/development/Speech2TextDemo.gif)
 
 ## Requirement
