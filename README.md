@@ -20,17 +20,20 @@ Speech2Text
 - Jupyterで実行する場合、Anaconda3
 
 ## Usage
-### 認証について
+### 認証について  
+ソースコード中の、
 `os.environ["GOOGLE_APPLICATION_CREDENTIALS"]= "C:***/***/***.json"`  
 を、訂正する必要があります。  
 認証用jsonファイルを入手するには、Google Cloudにて、サービスアカウントの登録を行う必要があります。  
 そののち、[認証の概要](https://cloud.google.com/docs/authentication/getting-started)によって、認証用jsonファイルを入手してください。  
 このjsonファイルは、他のプロジェクトでも使うことができます。  
+`os.environ["GOOGLE_APPLICATION_CREDENTIALS"]= "C:***/***/***.json"`  
+は、環境変数に書き込んでおくのが最もスマートではありますが、このようにソースコード中で指定することもできます。  
   
-### .ipynbを使う場合
+### 、.ipynbを使う場合
 - コンソールを開き、任意の場所で以下を実行し、ファイルをダウンロードしてください。  
 `git clone https://github.com/zacceydesuyo/Speech2Text.git`  
-- コマンドライン上で以下を実行し、必要なライブラリをインストールしてください。  
+- Speech2Textフォルダ内の以下を実行し、必要なライブラリをインストールしてください。  
 `pip install -r requirements.txt`   
 - 任意の環境(デモGifではJupyterLab)で"Speech2Text_note.ipynb"を開き、  
 `os.environ["GOOGLE_APPLICATION_CREDENTIALS"]= "C:***/***/***.json"`  
