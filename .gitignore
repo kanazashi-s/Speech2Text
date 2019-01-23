@@ -1,2 +1,5 @@
-minami.wav
+resource
 .ipynb_checkpoints
+ffmpeg.exe
+ffplay.exe
+ffprobe.exe
