@@ -52,7 +52,7 @@ GitHubの練習のようなものです。
   
 ### .mp3のファイルや、ステレオ音声を用いる場合  
 - "Suit_Encoding.ipynb"に、.mp3→.wavへの変換、ステレオからモノラルの変換を行うソースが記載されています。  
-- 実行するためには、[ffmpeg](https://ffmpeg.zeranoe.com/builds/)が必要です。ダウンロード・解凍ののち、binディレクトリ内の.exeファイルを全て、カレントディレクトリへ移動してください。  
+- "Suit_Encoding.ipynb"を実行するためには、[ffmpeg](https://ffmpeg.zeranoe.com/builds/)が必要です。ダウンロード・解凍ののち、binディレクトリ内の.exeファイルを全て、カレントディレクトリへ移動してください。  
 - (2019/1/23現在)binディレクトリにパスを通すことにより、.exeファイルを移動することなく実行したいと思っていますが、私の環境ではできませんでした。でき次第、ソースを更新します。  
   
 ## Install
@@ -61,9 +61,9 @@ GitHubの練習のようなものです。
 `pip install -r requirements.txt` 
 
 ## Contribution  
-お待ちしております。
-フォークして、新しいブランチを作ってそこに変更点をプッシュしておいてください。
-プルリクエストもお願いします。
+お待ちしております。  
+フォークして、新しいブランチを作ってそこに変更点をプッシュしておいてください。  
+プルリクエストもお願いします。  
 
 ## Licence  
 This source is licensed under the Apache License, Version2.0
