@@ -30,7 +30,7 @@ Speech2Text
 `os.environ["GOOGLE_APPLICATION_CREDENTIALS"]= "C:***/***/***.json"`  
 は、環境変数に書き込んでおくのが最もスマートではありますが、このようにソースコード中で指定することもできます。  
   
-### 、.ipynbを使う場合
+### .ipynbを使う場合
 - コンソールを開き、任意の場所で以下を実行し、ファイルをダウンロードしてください。  
 `git clone https://github.com/zacceydesuyo/Speech2Text.git`  
 - Speech2Textフォルダ内の以下を実行し、必要なライブラリをインストールしてください。  
@@ -48,9 +48,16 @@ Speech2Text
 `os.environ["GOOGLE_APPLICATION_CREDENTIALS"]= "C:***/***/***.json"`  
 - コマンドライン上で、以下を実行してください。
 `python Speech2Text.py minami.wav`
-
+  
+### .mp3のファイルや、ステレオ音声を用いる場合  
+- "Suit_Encoding.ipynb"に、.mp3→.wavへの変換、ステレオからモノラルの変換を行うソースが記載されています。  
+- 実行するためには、[ffmpeg](https://ffmpeg.zeranoe.com/builds/)が必要です。  
+- ダウンロード・解凍ののち、binディレクトリ内の.exeファイルを全て、カレントディレクトリへ移動してください。  
+- (2019/1/23現在)binディレクトリにパスを通すことにより、.exeファイルを移動することなく実行したいと思っていますが、私の環境ではできませんでした。でき次第、ソースを更新します。  
+  
 ## Install
 必要なライブラリは、'requirements.txt'に記述してあります。  
+そのため、以下のコマンドを任意の場所で実行していただくことにより、必要なライブラリがすべてインストールされます。
 `pip install -r requirements.txt` 
 
 ## Contribution
