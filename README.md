@@ -56,12 +56,16 @@ Speech2Text
   
 ## Install
 必要なライブラリは、'requirements.txt'に記述してあります。  
-そのため、以下のコマンドを任意の場所で実行していただくことにより、必要なライブラリがすべてインストールされます。
+そのため、以下のコマンドを任意の場所で実行していただくことにより、必要なライブラリがすべてインストールされます。  
 `pip install -r requirements.txt` 
 
-## Contribution
+## Contribution  
+お待ちしております。
+フォークして、新しいブランチを作ってそこに変更点をプッシュしておいてください。
+プルリクエストもお願いします。
 
-## Licence
+## Licence  
+This source is licensed under the Apache License, Version2.0
 
 ## Author
 
