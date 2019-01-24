@@ -21,15 +21,23 @@ GitHubの練習のようなものです。
 - Jupyterで実行する場合、Anaconda3
 
 ## Usage
+
+### Google Cloud Platformを利用するために
+[Google Cloud Platformの簡単スタートアップガイド](http://goo.gl/ua5fQw)の、サービス共通編(P9-P20)を終え、プロジェクトを作成してください。
+
 ### 認証について  
 ソースコード中の、
 `os.environ["GOOGLE_APPLICATION_CREDENTIALS"]= "C:***/***/***.json"`  
 を、訂正する必要があります。  
-認証用jsonファイルを入手するには、Google Cloudにて、サービスアカウントの登録を行う必要があります。  
-そののち、[認証の概要](https://cloud.google.com/docs/authentication/getting-started)によって、認証用jsonファイルを入手してください。  
-このjsonファイルは、他のプロジェクトでも使うことができます。  
+[認証の概要](https://cloud.google.com/docs/authentication/getting-started)によって、認証用jsonファイルを入手してください。  
+<div align="center">
+<img src=https://cloud.google.com/images/products/speech/speech-api-lead.png "Google-Speech-API">
+</div>
+  
+「作成」を押してダウンロードされたjsonファイルを、任意の場所に保存して  
 `os.environ["GOOGLE_APPLICATION_CREDENTIALS"]= "C:***/***/***.json"`  
-は、環境変数に書き込んでおくのが最もスマートではありますが、このようにソースコード中で指定することもできます。  
+中の`***/***/***`にその場所へのパスを記載してください。  
+これは、環境変数に書き込んでおくのがスマートではありますが、このようにソースコード中で指定することもできます。  
   
 ### .ipynbを使う場合
 - コンソールを開き、任意の場所で以下を実行し、ファイルをダウンロードしてください。  
@@ -52,8 +60,8 @@ GitHubの練習のようなものです。
   
 ### .mp3のファイルや、ステレオ音声を用いる場合  
 - "Suit_Encoding.ipynb"に、.mp3→.wavへの変換、ステレオからモノラルの変換を行うソースが記載されています。  
-- 実行するためには、[ffmpeg](https://ffmpeg.zeranoe.com/builds/)が必要です。ダウンロード・解凍ののち、binディレクトリ内の.exeファイルを全て、カレントディレクトリへ移動してください。  
-- (2019/1/23現在)binディレクトリにパスを通すことにより、.exeファイルを移動することなく実行したいと思っていますが、私の環境ではできませんでした。でき次第、ソースを更新します。  
+- "Suit_Encoding.ipynb"を実行するためには、[ffmpeg](https://ffmpeg.zeranoe.com/builds/)が必要です。ダウンロード・解凍ののち、binディレクトリ内の.exeファイルを全て、カレントディレクトリへ移動してください。  
+- (2019/1/23現在)ffmpegのbinディレクトリに、ソース内にてパスを通すことにより、.exeファイルを移動することなく実行したいと思っていますが、私の環境ではできませんでした。でき次第、ソースを更新します。  
   
 ## Install
 必要なライブラリは、'requirements.txt'に記述してあります。  
@@ -61,9 +69,9 @@ GitHubの練習のようなものです。
 `pip install -r requirements.txt` 
 
 ## Contribution  
-お待ちしております。
-フォークして、新しいブランチを作ってそこに変更点をプッシュしておいてください。
-プルリクエストもお願いします。
+お待ちしております。  
+フォークして、新しいブランチを作ってそこに変更点をプッシュしておいてください。  
+プルリクエストもお願いします。  
 
 ## Licence  
 This source is licensed under the Apache License, Version2.0
