@@ -28,7 +28,7 @@ GitHubの練習のようなものです。
 ### ソースコードのコピー
 - コンソールを開き、任意の場所で以下を実行し、全てのファイルをダウンロードしてください。  
 `git clone https://github.com/zacceydesuyo/Speech2Text.git`  
-- Speech2Textフォルダ内の以下を実行し、必要なライブラリをインストールしてください。  
+- Speech2Textフォルダ内に移動し、コンソール上で以下を実行し、必要なライブラリをインストールしてください。  
 `pip install -r requirements.txt`   
 
 ### 認証について  
