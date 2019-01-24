@@ -29,7 +29,7 @@ GitHubの練習のようなものです。
 ソースコード中の、
 `os.environ["GOOGLE_APPLICATION_CREDENTIALS"]= "C:***/***/***.json"`  
 を、訂正する必要があります。  
-[認証の概要](https://cloud.google.com/docs/authentication/getting-started)によって、認証用jsonファイルを入手してください。  
+[認証の概要](https://cloud.google.com/docs/authentication/getting-started)中の、「サービスアカウントを作成する」を実行し、認証用jsonファイルを入手してください。  
 <div align="center">
 <img src=https://github.com/zashio/Speech2Text/blob/master/CreateServiceAccountKey.png "GetJson">
 </div>
