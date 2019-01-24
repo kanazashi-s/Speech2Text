@@ -54,7 +54,7 @@ GitHubの練習のようなものです。
 - 任意のエディタで"Speech2Text.py"を開き、以下を訂正してください。  
 `os.environ["GOOGLE_APPLICATION_CREDENTIALS"]= "C:***/***/***.json"`  
 - コマンドライン上で、以下を実行してください。
-`python Speech2Text.py .wav`
+`python Speech2Text.py ***.wav`
   
 ### .mp3のファイルや、ステレオ音声を用いる場合  
 - "Suit_Encoding.ipynb"に、.mp3→.wavへの変換、ステレオからモノラルの変換を行うソースが記載されています。  
