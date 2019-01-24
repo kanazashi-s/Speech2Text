@@ -31,7 +31,7 @@ GitHubの練習のようなものです。
 を、訂正する必要があります。  
 [認証の概要](https://cloud.google.com/docs/authentication/getting-started)によって、認証用jsonファイルを入手してください。  
 <div align="center">
-<img src=https://cloud.google.com/images/products/speech/speech-api-lead.png "Google-Speech-API">
+<img src=https://github.com/zashio/Speech2Text/blob/master/CreateServiceAccountKey.png "GetJson">
 </div>
   
 「作成」を押してダウンロードされたjsonファイルを、任意の場所に保存して  
