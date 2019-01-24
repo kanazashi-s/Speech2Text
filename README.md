@@ -64,7 +64,8 @@ GitHubの練習のようなものです。
 ## Install
 必要なライブラリは、'requirements.txt'に記述してあります。  
 そのため、以下のコマンドを任意の場所で実行していただくことにより、必要なライブラリがすべてインストールされます。  
-`pip install -r requirements.txt` 
+`pip install -r requirements.txt`  
+Anaconda環境にてPythonのインストールを行った場合は、pipコマンドとcondaコマンドを併用してのインストールはおやめください。
 
 ## Contribution  
 お待ちしております。  
