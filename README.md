@@ -25,6 +25,12 @@ GitHubの練習のようなものです。
 ### Google Cloud Platformを利用するために
 [Google Cloud Platformの簡単スタートアップガイド](http://goo.gl/ua5fQw)の、サービス共通編(P9-P20)を終え、プロジェクトを作成してください。
 
+### ソースコードのコピー
+- コンソールを開き、任意の場所で以下を実行し、全てのファイルをダウンロードしてください。  
+`git clone https://github.com/zacceydesuyo/Speech2Text.git`  
+- Speech2Textフォルダ内の以下を実行し、必要なライブラリをインストールしてください。  
+`pip install -r requirements.txt`   
+
 ### 認証について  
 ソースコード中の、
 `os.environ["GOOGLE_APPLICATION_CREDENTIALS"]= "C:***/***/***.json"`  
@@ -40,23 +46,15 @@ GitHubの練習のようなものです。
 これは、環境変数に書き込んでおくのがスマートではありますが、このようにソースコード中で指定することもできます。  
   
 ### .ipynbを使う場合
-- コンソールを開き、任意の場所で以下を実行し、ファイルをダウンロードしてください。  
-`git clone https://github.com/zacceydesuyo/Speech2Text.git`  
-- Speech2Textフォルダ内の以下を実行し、必要なライブラリをインストールしてください。  
-`pip install -r requirements.txt`   
 - 任意の環境(デモGifではJupyterLab)で"Speech2Text_note.ipynb"を開き、  
 `os.environ["GOOGLE_APPLICATION_CREDENTIALS"]= "C:***/***/***.json"`  
 を訂正したのち、上から実行してください。  
   
 ### .pyを使う場合
-- コンソールを開き、任意の場所で以下を実行し、ファイルをダウンロードしてください。  
-`git clone https://github.com/zacceydesuyo/Speech2Text.git`  
-- コマンドライン上で以下を実行し、必要なライブラリをインストールしてください。  
-`pip install -r requirements.txt`   
 - 任意のエディタで"Speech2Text.py"を開き、以下を訂正してください。  
 `os.environ["GOOGLE_APPLICATION_CREDENTIALS"]= "C:***/***/***.json"`  
 - コマンドライン上で、以下を実行してください。
-`python Speech2Text.py minami.wav`
+`python Speech2Text.py .wav`
   
 ### .mp3のファイルや、ステレオ音声を用いる場合  
 - "Suit_Encoding.ipynb"に、.mp3→.wavへの変換、ステレオからモノラルの変換を行うソースが記載されています。  
